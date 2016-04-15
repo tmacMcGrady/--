@@ -14,7 +14,7 @@ function asa(){
 	for(var i=0;i<as.length;i++){
 				as[i].onclick = function(){
 					showpic(this);
-					return false;
+					return false;   //去除浏览器的默认行为
 				}
 	}
 }
